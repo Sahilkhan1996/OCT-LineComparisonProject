@@ -13,13 +13,12 @@ public class LineProgram {
 	double a2 = 2;
 	double b2 = 2;
 
-//Calculating value of x2-x1
+	// Calculating value of x2-x1
 	double ValueOfX(double x1, double x2) {
 		double Valueofx = x2 - x1;
 		return Valueofx;
 	}
 
-//Calculating value of y2-y1
 	double ValueOfY(double y1, double y2) {
 		double Valueofy = y2 - y1;
 		return Valueofy;
@@ -32,13 +31,13 @@ public class LineProgram {
 		double lengthofline1 = Math.sqrt(Squareofx1andx2 + Squareofy1andy2);
 		System.out.println("Length of line is: " + lengthofline1);
 
+
 		// Comparing the end point to check if the lines are equal
 		if (Var.x2 == Var.a2 && Var.y2 == Var.b2) {
 			System.out.println("Both the lines are equal");
 		} else {
 			System.out.println("Both the lines are unequal");
 		}
-
 	}
 
 }
